@@ -97,3 +97,98 @@ body{
 .openErrorMessage{
     display: block;
 }
+
+.social-links{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+
+}
+.link{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+}
+.link a {
+    text-decoration: none;
+}
+.link a img{
+    transform: scale(1.2);
+    transition: ease 0.5s;
+}
+.link a img:hover{
+    
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    body{
+        background: url("./img/background_tablet.jpg");
+    }
+    .shadow{
+        opacity: 30%;
+    }
+    #form input{
+        color: #116655;
+    }
+    #form input:focus{
+        outline-color: #116655;
+    }
+
+    .btn:hover{
+        color: #116655;
+    }
+
+    #error-name, #error-surname, #error-email{
+        background-color: white;
+    }
+
+    .social-links{
+        bottom: 32px;
+        right: 45%;
+    }
+    .link{
+        margin-left: 16px;
+    }
+    .link a img{
+        transform: scale(1.4);
+    }
+    .link a img:hover{
+        transform: scale(1.8);
+    }
+}
+
+@media screen and (max-width: 767px){
+    body{
+        background: url("./img/background_celular-vertical.jpg");
+    }
+
+    #form input{
+        color: #622c79;
+    }
+    #form input:focus{
+        outline-color: #622c79;
+    }
+
+    .btn:hover{
+        color: #622c79;
+    }
+
+    #error-name, #error-surname, #error-email{
+        background-color: white;
+    }
+
+    .social-links{
+        bottom: 32px;
+        right: 37%;
+    }
+    .link{
+        margin-left: 16px;
+    }
+    .link a img{
+        transform: scale(1.4);
+    }
+    .link a img:hover{
+        transform: scale(1.8);
+    }
+}
