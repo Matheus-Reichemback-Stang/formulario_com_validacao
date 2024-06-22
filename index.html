@@ -11,24 +11,25 @@
 </head>
 <body>
     <div class="container">
-        <form class="form">
+        <form id="form">
             <label for="name">Nome:</label>
             <input id="name" type="text" placeholder="Seu nome">
-            <p class="error-name">
+            <p id="error-name">
             </p>
             <label for="surname">Sobrenome:</label>
             <input id="surname" type="text" placeholder="Seu sobrenome">
-            <p class="error-surname">
+            <p id="error-surname">
             </p>
             <label for="email">E-mail:</label>
-            <input id="email" type="text" placeholder="Seu e-mail">
-            <p class="error-email">
+            <input id="email" type="email" placeholder="Seu e-mail">
+            <p id="error-email">
             </p>
             <label for="phoneNumber">Número de celular:</label>
             <input id="phoneNumber" type="tel" placeholder="Seu número (opcional)">
-            <button class="btn" type="submit">Enviar</button>
+            <button id="btnSubmit" class="btn" type="submit">Enviar</button>
         </form>
     </div>
     <div class="shadow"></div>
+    <script src="./main.js"></script>
 </body>
 </html>
