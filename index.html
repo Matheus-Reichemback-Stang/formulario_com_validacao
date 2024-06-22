@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <form class="form">
             <label for="name">Nome:</label>
             <input id="name" type="text" placeholder="Seu nome">
+            <p class="error-name">
+            </p>
             <label for="surname">Sobrenome:</label>
             <input id="surname" type="text" placeholder="Seu sobrenome">
+            <p class="error-surname">
+            </p>
             <label for="email">E-mail:</label>
             <input id="email" type="text" placeholder="Seu e-mail">
+            <p class="error-email">
+            </p>
             <label for="phoneNumber">Número de celular:</label>
             <input id="phoneNumber" type="tel" placeholder="Seu número (opcional)">
             <button class="btn" type="submit">Enviar</button>
         </form>
     </div>
+    <div class="shadow"></div>
 </body>
 </html>

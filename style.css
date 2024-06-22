@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: url("./img/background_pc.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 328px;
+    padding: 16px;
+    background-color: b;
+    border-radius: 8px;
+    border: 3px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.form label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.form input{
+    font-size: 16px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 16px;
+    border: 2px solid transparent;
+    color: #e67e22;
+}
+.form input:focus{
+    outline-color: #e67e22;
+}
+
+.btn{
+    padding: 8px 0;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: #e67e22;
+}
+.shadow{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    opacity: 20%;
+}
+
+.error-name, .error-surname, .error-email{
+    font-size: 16px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.form .error-input{
+    border-color: red;
+}
+.form .error-input:focus{
+    outline-color: red;
+}
