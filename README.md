@@ -2,10 +2,10 @@
 # Formulário com validação - JavaScript
 
 <!-- Link para página do projeto -->
-> Visite a página clicando [aqui](https://matheus-reichemback-stang.github.io/formulario_com_validacao/ "Visitar formulário").
+> Visite a página clicando <a href="https://matheus-reichemback-stang.github.io/formulario_com_validacao/" title="Visitar página" target="_blank" >aqui</a>.
 
 ### Sobre o projeto:
-A página se trata de um formulário simples que tem validações nos campos de **Nome**, **Sobrenome** e **E-mail**, quando um dos campos não é preenchido corretamente, vai aparecer uma mensagem informando o tipo de erro que você cometeu ao tentar preencher o aquele campo, ademais, **dependendo do dispositivo** que você visitar a página, o design dela vai mudar, como por exemplo o ***background*** que vai mudar de imagem de fundo e assim mudando a **estética** da página como um todo. Caso ainda não tenha visto a página, clique [aqui](https://matheus-reichemback-stang.github.io/formulario_com_validacao/ "Visitar página").
+A página se trata de um formulário simples que tem validações nos campos de **Nome**, **Sobrenome** e **E-mail**, quando um dos campos não é preenchido corretamente, vai aparecer uma mensagem informando o tipo de erro que você cometeu ao tentar preencher o aquele campo, ademais, **dependendo do dispositivo** que você visitar a página, o design dela vai mudar, como por exemplo o ***background*** que vai mudar de imagem de fundo e assim mudando a **estética** da página como um todo, mas sem perder o foco principal de ser um formulário. Caso ainda não tenha visto a página, clique <a href="https://matheus-reichemback-stang.github.io/formulario_com_validacao/" title="Visitar página" target="_blank" >aqui</a>.
 
 ---
 <!-- Estado de desenvolvimento -->
