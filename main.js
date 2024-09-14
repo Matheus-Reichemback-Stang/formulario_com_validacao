@@ -29,8 +29,9 @@ form.addEventListener('submit', function(e) {
         inputName.value = '';
         inputSurname.value = '';
         inputEmail.value = '';
+        
         isNameValid = false;
-        isSurnameValid = false
+        isSurnameValid = false;
         isEmailValid = false;
     } else{
         alert('Preencha os campos')
