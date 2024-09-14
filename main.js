@@ -24,11 +24,14 @@ form.addEventListener('submit', function(e) {
     e.preventDefault();
 
     if(isNameValid && isSurnameValid && isEmailValid){
-        alert("Parabens você foi cadastrado")
+        alert("Parabéns você foi cadastrado")
 
         inputName.value = '';
         inputSurname.value = '';
         inputEmail.value = '';
+        isNameValid = false;
+        isSurnameValid = false
+        isEmailValid = false;
     } else{
         alert('Preencha os campos')
     }
